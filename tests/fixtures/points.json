@@ -1,0 +1,40 @@
+{
+  "course_key": "demo-points",
+  "course_name": "Introduction to Psychology",
+  "course_code": "PSY 101",
+  "model": "points",
+  "target": 92,
+  "target_label": "Custom",
+  "rule_source": "Demo syllabus \u00b7 1,000 total course points",
+  "rules_status": "confirmed",
+  "data_completeness": "complete",
+  "unsupported_rules": [],
+  "positive_notifications": false,
+  "source": "demo",
+  "categories": [
+    {
+      "id": "all",
+      "name": "Coursework",
+      "weight": 100
+    }
+  ],
+  "assignments": [
+    {
+      "id": "completed",
+      "name": "Completed coursework",
+      "category": "all",
+      "points_possible": 800,
+      "score": 720,
+      "status": "graded"
+    },
+    {
+      "id": "final",
+      "name": "Final exam",
+      "category": "all",
+      "points_possible": 200,
+      "score": null,
+      "status": "not_due",
+      "increment": 1
+    }
+  ]
+}

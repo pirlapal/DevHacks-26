@@ -1,0 +1,67 @@
+{
+  "course_key": "demo-software-engineering",
+  "course_name": "Software Engineering",
+  "course_code": "CSE 340",
+  "model": "weighted",
+  "target": 90,
+  "target_label": "A\u2212",
+  "rule_source": "Demo syllabus \u00b7 Grading policy, page 3",
+  "rules_status": "confirmed",
+  "data_completeness": "complete",
+  "unsupported_rules": [],
+  "positive_notifications": false,
+  "source": "demo",
+  "categories": [
+    {
+      "id": "homework",
+      "name": "Homework",
+      "weight": 30
+    },
+    {
+      "id": "projects",
+      "name": "Projects",
+      "weight": 30
+    },
+    {
+      "id": "final",
+      "name": "Final exam",
+      "weight": 40
+    }
+  ],
+  "assignments": [
+    {
+      "id": "homework",
+      "name": "Homework 1\u20136",
+      "category": "homework",
+      "points_possible": 300,
+      "score": 270,
+      "status": "graded"
+    },
+    {
+      "id": "project-1",
+      "name": "Project 1",
+      "category": "projects",
+      "points_possible": 100,
+      "score": 85,
+      "status": "graded"
+    },
+    {
+      "id": "project-2",
+      "name": "Project 2",
+      "category": "projects",
+      "points_possible": 100,
+      "score": null,
+      "status": "not_due",
+      "increment": 1
+    },
+    {
+      "id": "final",
+      "name": "Final exam",
+      "category": "final",
+      "points_possible": 100,
+      "score": null,
+      "status": "not_due",
+      "increment": 1
+    }
+  ]
+}
